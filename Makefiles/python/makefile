@@ -1,3 +1,5 @@
+.PHONY: clean-pyc clean-build
+
 HOST=127.0.0.1
 TEST_PATH=./
 
@@ -19,9 +21,6 @@ lint:
 
 test: clean-pyc
     py.test --verbose --color=yes $(TEST_PATH)
-
-run:
-    python manage.py runserver
 
 docker-run:
     docker build \
