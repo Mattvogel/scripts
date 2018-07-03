@@ -1,4 +1,5 @@
 import math
+
 def log(position):
 
     minp = 0
@@ -10,6 +11,7 @@ def log(position):
     scale = (maxv-minv) / (maxp - minp)
     return math.exp(minv + scale*(position - minp))
 
-for each in range(0, 127):
-    print(log(each))
+def fader():
+    for each in range(0, 127):
+        return(log(each))
 
