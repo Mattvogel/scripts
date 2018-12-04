@@ -1,0 +1,8 @@
+[package]
+name = "rNTP"
+version = "0.1.0"
+authors = ["Matthew Vogel <matthew@apnic.net>"]
+
+[dependencies]
+time = "*"
+byteorder = "*"
