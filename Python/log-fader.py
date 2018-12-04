@@ -13,5 +13,7 @@ def log(position):
 
 def fader():
     for each in range(0, 127):
-        return(log(each))
-
+        print(log(each))
+        return(True)
+if __name__ == "__main__":
+    fader()

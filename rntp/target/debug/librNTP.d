@@ -1,1 +1,0 @@
-/Users/matthew/Documents/Rust/src/rNTP/target/debug/librNTP.rlib: /Users/matthew/Documents/Rust/src/rNTP/src/error.rs /Users/matthew/Documents/Rust/src/rNTP/src/lib.rs /Users/matthew/Documents/Rust/src/rNTP/src/ntp.rs
